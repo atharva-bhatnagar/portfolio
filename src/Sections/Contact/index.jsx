@@ -5,7 +5,7 @@ function Contact() {
 	return (
 		<section className={styles.contact_section} id="contact">
 			<div className={styles.heading_1}>
-				<Heading index="04" heading="What's Next" />
+				<Heading index="03" heading="What's Next" />
 			</div>
 			<h1 className={styles.heading_2}>Get In Touch</h1>
 			<p className={styles.desc}>

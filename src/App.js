@@ -15,7 +15,7 @@ function App() {
 			<div className="app_section_container">
 				<Home />
 				<About />
-				<Experience />
+				{/*<Experience />*/}
 				<Work />
 				<Contact />
 			</div>

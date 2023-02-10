@@ -7,13 +7,13 @@ import styles from "./styles.module.css";
 function Work() {
   return (
     <section id="work">
-      <Heading index="03" heading="Some Things I’ve Built" />
+      <Heading index="02" heading="Some Things I’ve Built" />
       <div className={styles.container}>
         {constant.projects.map((project, index) =>
           index % 2 === 0 ? (
             <div className={styles.project}>
               <div className={styles.left}>
-                <a href={project.link} target="__blank">
+                <a href='https://capstone-project-lovat-two.vercel.app/' target="__blank">
                   <img
                     src={project.image}
                     className={styles.img}

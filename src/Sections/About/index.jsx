@@ -8,16 +8,14 @@ function About() {
 			<div className={styles.container}>
 				<div className={styles.left}>
 					<p className={styles.desc}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book.
+						I am from Lucknow Uttar Pradesh. I studied in Kendriya Vidyalaya R.D.S.O. 
+						and now I am persuing my B.tech Computer Science degree in Lovely Professional University.
+						I am a web developer and I love to work on frontend projects. 
 					</p>
 					<p className={styles.desc}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book.
+						I am comfortable with the fundamentals of web development and I have also learnt frameworks 
+						react and angular. I now want to master my backend skills and become a full stack developer.
+						Apart from making projects I love to watch anime in my free time.
 					</p>
 				</div>
 				<div className={styles.right}>
@@ -25,6 +23,7 @@ function About() {
 						src="./images/profile.jpg"
 						alt="profile"
 						className={styles.profile_img}
+						
 					/>
 					<div className={styles.img_border}></div>
 				</div>
